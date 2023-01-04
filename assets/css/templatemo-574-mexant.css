@@ -23,16 +23,16 @@ Table of contents
 12. portfolio
 
 --------------------------------------------- */
-/* 
+/*
 ---------------------------------------------
 font & reset css
---------------------------------------------- 
+---------------------------------------------
 */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900");
-/* 
+/*
 ---------------------------------------------
 reset
---------------------------------------------- 
+---------------------------------------------
 */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
@@ -114,10 +114,10 @@ img {
   overflow: hidden;
 }
 
-/* 
+/*
 ---------------------------------------------
 global styles
---------------------------------------------- 
+---------------------------------------------
 */
 html,
 body {
@@ -154,7 +154,7 @@ body {
 .green-button a {
   font-size: 14px;
   color: #fff;
-  background-color: #43ba7f;
+  background-color: #239DDA;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -171,7 +171,7 @@ body {
 .orange-button a {
   font-size: 14px;
   color: #fff;
-  background-color: #ff511a;
+  background-color: #FAB027;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -200,7 +200,7 @@ section {
 .section-heading h6 {
   font-size: 16px;
   text-transform: uppercase;
-  color: #ff511a;
+  color: #239DDA;
   font-weight: 700;
 }
 
@@ -218,10 +218,10 @@ section {
 }
 
 
-/* 
+/*
 ---------------------------------------------
 header
---------------------------------------------- 
+---------------------------------------------
 */
 .background-header {
   background-color: #212741;
@@ -319,7 +319,7 @@ header
 .header-area .main-nav .nav li:last-child a {
   font-size: 14px;
   color: #fff;
-  background-color: #43ba7f;
+  background-color: #239DDA;
   padding: 10px 20px !important;
   display: inline-block;
   border-radius: 5px;
@@ -353,12 +353,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #ff511a;
+  color: #239DDA;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #ff511a;
+  color: #239DDA;
   opacity: 1;
 }
 
@@ -418,7 +418,7 @@ header
 
 .header-area .main-nav .nav li.has-sub ul li a:hover {
   background: #fff;
-  color: #ff511a!important;
+  color: #239DDA!important;
   padding-left: 25px;
 }
 
@@ -558,7 +558,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #ff511a;
+  color: #239DDA;
 }
 
 @media (max-width: 1200px) {
@@ -681,10 +681,10 @@ header
 }
 
 
-/* 
+/*
 ---------------------------------------------
 banner
---------------------------------------------- 
+---------------------------------------------
 */
 
 .swiper-container {
@@ -798,7 +798,7 @@ banner
 ---------------------------------------------
 services
 ---------------------------------------------
-*/ 
+*/
 
 section.services {
   margin-top: 90px;
@@ -825,7 +825,7 @@ section.services {
   transition: all .5s;
   float: left;
   font-size: 64px;
-  color: #43ba7f;
+  color: #43ABB9;
   margin-bottom: 30px;
   margin-right: 30px;
 }
@@ -925,7 +925,7 @@ section.about-us .naccs .menu div {
 }
 
 section.about-us .naccs .menu div.active {
-  color: #ff511a;
+  color: #239DDA;
 }
 
 section.about-us ul.nacc {
@@ -967,7 +967,7 @@ section.about-us ul.nacc li span.title {
 }
 
 section.about-us ul.nacc li span.item-title {
-  color: #43ba7f !important;
+  color: #239DDA !important;
   font-weight: 600 !important;
 }
 
@@ -1057,7 +1057,7 @@ section.calculator .section-heading h4 {
 #calculate button.orange-button {
   font-size: 14px;
   color: #fff;
-  background-color: #ff511a;
+  background-color: #FAB027;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -1074,10 +1074,10 @@ section.calculator .section-heading h4 {
 
 
 
-/* 
+/*
 ---------------------------------------------
 testimonials
---------------------------------------------- 
+---------------------------------------------
 */
 
 section.testimonials {
@@ -1102,7 +1102,7 @@ section.testimonials .section-heading {
 .testimonials .item i {
   width: 70px;
   height: 70px;
-  background-color: #43ba7f;
+  background-color: #43ABB9;
   display: inline-block;
   text-align: center;
   line-height: 70px;
@@ -1160,10 +1160,10 @@ section.testimonials .section-heading {
 
 
 
-/* 
+/*
 ---------------------------------------------
 partners
---------------------------------------------- 
+---------------------------------------------
 */
 
 section.partners {
@@ -1183,10 +1183,10 @@ section.partners .item:hover {
 
 
 
-/* 
+/*
 ---------------------------------------------
-footer 
---------------------------------------------- 
+footer
+---------------------------------------------
 */
 
 footer {
@@ -1206,10 +1206,10 @@ footer p a {
 
 
 
-/* 
+/*
 ---------------------------------------------
 page heading
---------------------------------------------- 
+---------------------------------------------
 */
 
 .page-heading {
@@ -1237,10 +1237,10 @@ page heading
 
 
 
-/* 
+/*
 ---------------------------------------------
 about us page
---------------------------------------------- 
+---------------------------------------------
 */
 
 section.top-section .left-image img {
@@ -1261,13 +1261,13 @@ section.top-section .accordions {
   border-bottom: none;
 }
 .accordion-head {
-  padding: 35px 0px !important;  
+  padding: 35px 0px !important;
   font-size: 22px;
   font-weight: 600;
   color: #212741;
   cursor: pointer;
   transition: color 200ms ease-in-out;
-  
+
 }
 @media screen and (min-width: 768px) {
   .accordion-head {
@@ -1329,7 +1329,7 @@ section.what-we-do {
   position: absolute;
   font-style: normal;
   font-size: 44px;
-  color: #43ba7f;
+  color: #43ABB9;
   font-weight: 600;
   right: 15px;
   top: 5px;
@@ -1348,10 +1348,10 @@ section.what-we-do {
 
 
 
-/* 
+/*
 ---------------------------------------------
 services page
---------------------------------------------- 
+---------------------------------------------
 */
 
 .main-services .service-item {
@@ -1437,7 +1437,7 @@ section.service-details .naccs .menu div {
 }
 
 section.service-details .naccs .menu div.active {
-  color: #ff511a;
+  color: #239DDA;
 }
 
 section.service-details ul.nacc {
@@ -1519,10 +1519,10 @@ section.service-details ul.nacc li.active {
 
 
 
-/* 
+/*
 ---------------------------------------------
 contact us page
---------------------------------------------- 
+---------------------------------------------
 */
 
 section.map .info-item {
@@ -1545,7 +1545,7 @@ section.map .info-item:hover {
 
 section.map .info-item i {
   font-size: 36px;
-  color: #43ba7f;
+  color: #43ABB9;
   margin-bottom: 25px;
 }
 
@@ -1559,7 +1559,7 @@ section.map .info-item h4 {
 section.map .info-item a {
   font-size: 15px;
   font-weight: 600;
-  color: #43ba7f;
+  color: #43ABB9;
   transition: all 0.3s;
 }
 
@@ -1595,14 +1595,14 @@ section.map .info-item a:hover {
   margin-bottom: 30px;
 }
 
-#contact input::placeholder, 
+#contact input::placeholder,
 #contact textarea::placeholder {
   color: #212741;
 }
 #contact button.orange-button {
   font-size: 14px;
   color: #fff;
-  background-color: #ff511a;
+  background-color: #43ABB9;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -1614,14 +1614,14 @@ section.map .info-item a:hover {
 }
 
 #contact button.orange-button:hover {
-  background-color: #43ba7f;
+  background-color: #FAB027;
 }
 
 
-/* 
+/*
 ---------------------------------------------
 responsive
---------------------------------------------- 
+---------------------------------------------
 */
 
 
@@ -1666,7 +1666,7 @@ body {
     right: 50px;
   }
   section.partners .item {
-    margin:15px; 
+    margin:15px;
   }
   section.top-section .accordions {
     margin-left: 0px;
