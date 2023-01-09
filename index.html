@@ -475,6 +475,20 @@ https://templatemo.com/tm-548-training-studio
 
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
+    <script>
+        //Sendind the infos to WhatsApp
+    let form_submit = document.getElementById("form-submit").addEventListener("click", function(e) {
+      e.preventDefault();
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let subject = document.getElementById("subject").value;
+    let message = document.getElementById("message").value;
+    let url =
+    "https://wa.me/+5519998143977?text=" + "Name: " + name + "%0a" +  "Email: " + email + "%0a" + "Assunto: " + subject + "%0a" + "Mensagem: " + message;
+
+    window.open(url, "_blank").focus();
+  });
+    </script>
 
   </body>
 </html>
